@@ -1,14 +1,16 @@
 {
   "name": "news-app-with-nextjs",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
   },
   "dependencies": {
     "@next/font": "13.0.7",
@@ -27,6 +29,7 @@
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
+    "pinst": "^3.0.0",
     "prettier": "^2.8.1"
   },
   "lint-staged": {
