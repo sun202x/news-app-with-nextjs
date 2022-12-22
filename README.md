@@ -1,2 +1,5 @@
-# news-app-with-nextjs
-Application for Korea news viewer
+# 뉴스 뷰어 어플리케이션 작성
+
+## 목적
+- Next.js 공부 목적
+- 한국 뉴스 뷰어 개발
