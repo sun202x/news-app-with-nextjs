@@ -36,3 +36,5 @@ nodeLinker: pnp
 이어서 `yarn dev` 명령어를 통해 실행하면 기존 `node_modules` 파일이 제거되며 정상적으로 실행 되는 것을 확인할 수 있다.
 
 `prettier`와 `husky`를 사용하기 위한 설정은 참조 블로그에서 확인해보도록 하자.
+
+> prettier와 함께 설정하는 stylelint는 tailwind css를 사용할 것이라서 일부러 뺐다.
