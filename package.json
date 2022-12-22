@@ -1,7 +1,6 @@
 {
   "name": "news-app-with-nextjs",
   "version": "0.1.0",
-  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -26,6 +25,8 @@
   },
   "packageManager": "yarn@3.3.1",
   "devDependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
