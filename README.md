@@ -5,7 +5,8 @@
 - Next.js 공부 목적
 - yarn berry 공부 목적
   - yarn berry의 zero install을 공부해 본다.
-
+- husky 공부 목적
+  - Git client hook을 편하게 사용할 수 있는 husky를 공부해 본다.
 
 ## 시작하기
 > 참조: [NextJS(TS) + Yarn berry boilerplate 생성
